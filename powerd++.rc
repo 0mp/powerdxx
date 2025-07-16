@@ -9,6 +9,9 @@
 
 name="powerdxx"
 rcvar="powerdxx_enable"
+
+: "${powerdxx_enable:="NO"}"
+
 command="%%PREFIX%%/sbin/powerd++"
 pidfile="/var/run/powerd.pid"
 
